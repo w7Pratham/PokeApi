@@ -2,7 +2,7 @@ from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
 
-data = open(r'C:\Arther\code\python\Notebook\dataset\pokemon.csv').readlines()
+data = open(r'pokemon.csv').readlines()
 pokeNames = []
 pokeDit = {}
 typCount = {}
